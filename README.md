@@ -43,11 +43,29 @@ Los metadatos son información estructurada que describe, explica o proporciona 
 
 ## Estructura de un HTML
 
+## Estructura de un HTML
+
 ```html
-<header> <nav> </nav> </header>
+<header>
+  <nav></nav>
+</header>
+
 <main>
   <article></article>
   <section></section>
   <aside></aside>
 </main>
+
 <footer></footer>
+```
+## Diferencia entre etiqueta y elemento
+
+Una etiqueta HTML puede ser `<p>`, `<h1>`, `<h2>`, etc., mientras que un elemento HTML contiene la siguiente estructura:
+
+`<p>Este texto es un ejemplo</p>`
+
+## ¿Cómo interpreta el navegador un documento HTML?
+
+Leyendo el código de forma secuencial y transformándolo en un árbol jerárquico de objetos llamado **DOM** (*Document Object Model*) para finalmente dibujarlo en la pantalla.
+
+
